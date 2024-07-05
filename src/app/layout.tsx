@@ -27,7 +27,10 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <Header />
+        <div className="bg-rose-400 p-1">
+          <Header />
+        </div>
+
         {children}
       </body>
     </html>
