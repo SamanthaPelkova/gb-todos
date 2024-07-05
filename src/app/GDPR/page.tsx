@@ -6,14 +6,14 @@ export default function Page() {
       <h1 className="lg:text-5xl font-bold text-3xl p-3 text-center text-rose-400 underline mt-2">
         GDPR:
       </h1>
-      <p className="lg:text-xl text-sm text-center font-bold text-rose-500 lg:mt-10 mt-2 mb-5 lg:mx-20 mx-5">
-        Dětský domov Uherský Ostroh, Sokolovská 620, Uherský Ostroh, 687 24,
+      <p className="lg:text-xl text-sm font-bold text-rose-500 lg:mt-10 mt-2 mb-5 lg:mx-20 mx-5">
+        - Dětský domov Uherský Ostroh, Sokolovská 620, Uherský Ostroh, 687 24,
         IČO: 603 71 811 je příspěvkovou organizací Zlínského kraje, který je
         jeho zřizovatelem.
       </p>
-      <p className="lg:text-xl text-sm text-center font-bold text-rose-500 lg:mt-10 mt-2 mb-6 lg:mx-20 mx-5">
-        V rámci zajišťování svých činností provádí příspěvková organizace, která
-        je správcem osobních údajů, jejich zpracování zejména pro účely
+      <p className="lg:text-xl text-sm font-bold text-rose-500 lg:mt-10 mt-2 mb-6 lg:mx-20 mx-5">
+        - V rámci zajišťování svých činností provádí příspěvková organizace,
+        která je správcem osobních údajů, jejich zpracování zejména pro účely
         zajištění péče o děti o s nařízenou ústavní výchovou.
       </p>
       <h2 className="lg:text-3xl font-bold text-xl p-3 text-center bg-rose-300 text-white mt-2">
@@ -78,7 +78,7 @@ export default function Page() {
         <img
           src="/images/gdpr-page-kids.png"
           alt="gdpr-page-kids-photo"
-          className="w-1/3 relative lg:-mt-60 lg:mr-20"
+          className="lg:w-1/3 mt-10 relative lg:-mt-60 lg:mr-20"
         />
       </div>
     </div>

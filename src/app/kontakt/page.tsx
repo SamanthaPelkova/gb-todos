@@ -84,7 +84,7 @@ export default function Page() {
           <p>Uherský Ostroh</p>
           <p>687 24</p>
         </div>
-        <div className="">
+        <div className="mb-20">
           <img src="../images/mapadd.png" alt="#" className="rounded-3xl" />
         </div>
       </div>
