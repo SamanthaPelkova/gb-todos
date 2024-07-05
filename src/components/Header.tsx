@@ -100,7 +100,7 @@ export function NavigationMenuDemo() {
             </NavigationMenuItem>
 
             <NavigationMenuItem>
-              <Link href="/docs" legacyBehavior passHref>
+              <Link href="/GDPR" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   GDPR
                 </NavigationMenuLink>
