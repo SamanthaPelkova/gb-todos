@@ -230,7 +230,7 @@ export function NavigationMenuDemo() {
           </DropdownMenuTrigger>
           <DropdownMenuContent className="mr-2 p-5 font-bold">
             <DropdownMenuItem>
-              <Link href="/"></Link>Zážitky dětí
+              <Link href="/">Zážitky dětí</Link>
             </DropdownMenuItem>
             <DropdownMenuItem>Výroční zprávy</DropdownMenuItem>
             <DropdownMenuItem>Dokumenty</DropdownMenuItem>
