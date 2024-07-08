@@ -189,7 +189,7 @@ export function NavigationMenuDemo() {
             </NavigationMenuItem>
 
             <NavigationMenuItem>
-              <Link href="/docs" legacyBehavior passHref>
+              <Link href="/historie" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Historie
                 </NavigationMenuLink>
