@@ -2,7 +2,7 @@ import Container from "@/components/Container";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-rose-400">
+    <main className="relative min-h-screen overflow-hidden bg-gradient-to-r from-rose-400 to-rose-200">
       <div className="relative inset-0">
         <img
           src="/images/background-photo.png"
@@ -12,7 +12,7 @@ export default function Home() {
       </div>
       <Container className="relative z-10 min-h-screen bg-transparent font-sans antialiased mt-6 sm:mt-5">
         <div bg-white>
-          <h1 className="text-white font-bold lg:text-6xl text-3xl bg-rose-200 text-center lg:p-2 p-1 rounded-t-3xl lg:-mt-14 -mt-10 lg:w-auto w-1/1">
+          <h1 className="text-indigo-950 font-bold lg:text-6xl text-3xl bg-rose-200 text-center lg:p-2 p-1 rounded-t-3xl lg:-mt-14 -mt-10 lg:w-auto w-1/1">
             Aktuality
           </h1>
           <HomePageActions />
@@ -25,7 +25,7 @@ export default function Home() {
 function HomePageActions() {
   return (
     <div className="bg-rose-100 p-4 rounded-b-3xl">
-      <h2 className="lg:text-3xl text-2xl font-bold text-rose-600 lg:ml-6 -mt-2 animate-pulse underline">
+      <h2 className="lg:text-3xl text-2xl font-bold text-indigo-950 lg:ml-6 -mt-2 animate-pulse underline">
         Volná místa:
       </h2>
       <div className="lg:flex">
@@ -36,11 +36,11 @@ function HomePageActions() {
             className="lg:w-1/1 rounded-3xl lg:ml-6 mt-5"
           />
         </div>
-        <div className="mt-2 p-4 rounded-3xl text-xl justify-start">
-          <h3 className="lg:text-2xl text-xl font-bold text-rose-500 mb-2 bg-rose-200 p-3 lg:w-1/2 w-60 text-center rounded-3xl lg:-mt-6 -mt-16 absolute lg:relative lg:-ml-24 ml-28">
+        <div className="mt-2 p-4 rounded-3xl lg:text-xl text-m justify-start">
+          <h3 className="lg:text-2xl text-xl font-bold text-white mb-2 bg-rose-400 p-3 lg:w-1/2 w-60 text-center rounded-3xl lg:-mt-6 -mt-16 absolute lg:relative lg:-ml-24 ml-28">
             VYCHOVATEL/KA
           </h3>
-          <div className="lg:ml-6 ml-2">
+          <div className="lg:ml-6 ml-0">
             <p className="mb-6">
               Na dlouhodobý zástup za pracovní neschopnost do Dětského Domova v
               Uherském Ostrohu.
@@ -61,7 +61,7 @@ function HomePageActions() {
               poměr
             </p>
           </div>
-          <h1 className="flex justify-end font-extrabold text-rose-500 lg:text-lg text-sm mr-5">
+          <h1 className="flex justify-end font-extrabold text-rose-500 lg:text-lg text-sm mr-5 animate-bounce">
             +420 572 591 210 &nbsp; &nbsp; &nbsp; reditelna@centrum.cz
           </h1>
         </div>

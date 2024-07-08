@@ -232,10 +232,18 @@ export function NavigationMenuDemo() {
             <DropdownMenuItem>
               <Link href="/">Zážitky dětí</Link>
             </DropdownMenuItem>
-            <DropdownMenuItem>Výroční zprávy</DropdownMenuItem>
-            <DropdownMenuItem>Dokumenty</DropdownMenuItem>
-            <DropdownMenuItem>Historie</DropdownMenuItem>
-            <DropdownMenuItem>Sponzoři</DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href="">Výroční zprávy</Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href="">Dokumenty</Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href="/historie">Historie</Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href="">Sponzoři</Link>
+            </DropdownMenuItem>
             <DropdownMenuItem>
               <Link href="/GDPR" legacyBehavior passHref>
                 GDPR

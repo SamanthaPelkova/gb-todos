@@ -28,7 +28,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <div className="bg-rose-400 p-1">
+        <div className="bg-gradient-to-r from-rose-400 to-rose-200 p-1">
           <Header />
         </div>
 
