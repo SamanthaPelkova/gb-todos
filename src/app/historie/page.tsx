@@ -41,7 +41,7 @@ export default function Page() {
         <img
           src="/images/domov_stary.jpg"
           alt="domov-stary-image"
-          className="lg:w-1/3 lg:mr-40 rounded-3xl shadow-2xl shadow-rose-400"
+          className="lg:w-1/3 lg:mr-40 rounded-3xl"
         />
       </div>
 
@@ -87,7 +87,7 @@ export default function Page() {
         <img
           src="/images/domov_novy.jpeg"
           alt="domov-stary-image"
-          className="lg:w-1/3 lg:mr-60 rounded-3xl lg:-mt-20 shadow-2xl shadow-rose-400"
+          className="lg:w-1/3 lg:mr-60 rounded-3xl lg:-mt-20"
         />
       </div>
     </div>
