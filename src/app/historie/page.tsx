@@ -14,7 +14,7 @@ export default function Page() {
       <h1 className="lg:text-5xl font-bold text-3xl p-3 text-center text-rose-400 underline mt-2">
         Historie našeho domu:
       </h1>
-      <h2 className="bg-rose-300 text-white lg:w-1/4 w-1/1 mr-20 p-3 font-bold text-xl lg:mt-10 mt-3 rounded-r-full pl-10">
+      <h2 className="bg-rose-300 text-indigo-950 lg:w-1/4 w-1/1 mr-20 p-3 font-bold text-xl lg:mt-10 mt-3 rounded-r-full pl-10">
         Domov před přestavbou
       </h2>
       <div className="lg:w-1/2 justify-start">

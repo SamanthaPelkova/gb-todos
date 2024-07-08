@@ -46,6 +46,15 @@ export default function Page() {
         <div className="flex space-x-4 text-xl justify-between">
           <p className="lg:pr-20 pr-6 text-rose-400">Tel: +420 773 591 210</p>
         </div>
+        <h2 className="lg:text-2xl text-m mt-9 mb-2 bg-rose-50 pl-5 -ml-6 p-1 italic text-rose-400 font-bold">
+          Správa webu:
+        </h2>
+        <div className="flex space-x-4 lg:text-2xl text-s justify-between w-auto">
+          <p className="lg:pl-3 -pl-6 lg:text-xl text-sm">Samantha Pelková</p>
+          <p className="text-left lg:pr-20 pr-3 text-rose-400 text-sm text-left lg:text-xl">
+            Tel: +420 773 591 210
+          </p>
+        </div>
         <h1 className="text-3xl bg-rose-300 text-center text-white p-3 -ml-6 mt-20 w-80 rounded-r-full shadow-lg shadow-rose-400/90">
           Elektronická pošta:
         </h1>

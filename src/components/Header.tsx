@@ -214,7 +214,7 @@ export function NavigationMenuDemo() {
 
             <NavigationMenuItem>
               <Link href="/kontakt" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <NavigationMenuLink className="bg-white font-bold rounded-lg shadow-2xl shadow-white p-2">
                   Kontakt
                 </NavigationMenuLink>
               </Link>
@@ -244,16 +244,12 @@ export function NavigationMenuDemo() {
             <DropdownMenuItem>
               <Link href="">Sponzoři</Link>
             </DropdownMenuItem>
-            <DropdownMenuItem>
-              <Link href="/GDPR" legacyBehavior passHref>
-                GDPR
-              </Link>
-            </DropdownMenuItem>
-            <DropdownMenuItem>
-              <Link href="/kontakt" legacyBehavior passHref>
-                Kontakt
-              </Link>
-            </DropdownMenuItem>
+            <Link href="/GDPR">
+              <DropdownMenuItem>GDPR</DropdownMenuItem>
+            </Link>
+            <Link href="/kontakt">
+              <DropdownMenuItem>Kontakt</DropdownMenuItem>
+            </Link>
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
