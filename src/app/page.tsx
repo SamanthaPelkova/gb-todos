@@ -6,6 +6,7 @@ import Form from "@/components/Form";
 import PackingList from "@/components/PackingList";
 import Stats from "@/components/Stats";
 import Container from "@/components/Container";
+import ThemeSwitch from "@/components/ThemeSwitch";
 
 interface Item {
   id: number;
@@ -88,11 +89,12 @@ export default function App() {
   return (
     <main className="">
       <div className="relative inset-0"></div>
-      <Container className="">
+      <Container>
         <div>
           <h1 className="text-4xl text-center p-10">
             G Y M <strong> B E A M</strong>
           </h1>
+          <ThemeSwitch />
         </div>
       </Container>
 

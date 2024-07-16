@@ -35,7 +35,7 @@ export default function Form({ onAddItems }: FormProps) {
         </h3>
         <div className="bg-gray-300 lg:w-1/2 lg:rounded-full rounded-3xl mt-2">
           <select
-            className="bg-gray-100 lg:p-3 p-2 rounded-xl lg:mx-6 mx-4 my-4"
+            className="bg-gray-100 lg:p-3 p-2 rounded-xl lg:mx-6 mx-4 my-4 text-black"
             value={quantity}
             onChange={(e) => setQuantity(Number(e.target.value))}
           >
@@ -46,7 +46,7 @@ export default function Form({ onAddItems }: FormProps) {
             ))}
           </select>
           <input
-            className="lg:p-3 p-2 rounded-xl w-1/2"
+            className="lg:p-3 p-2 rounded-xl w-1/2 text-black"
             type="text"
             placeholder="Protein.."
             value={description}
