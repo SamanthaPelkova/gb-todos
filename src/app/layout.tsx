@@ -2,8 +2,6 @@ import "@/styles/globals.css";
 import type { Metadata } from "next";
 import { cn } from "@/lib/utils";
 import { Inter as FontSans } from "next/font/google";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -28,12 +26,9 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <div className="bg-rose-400 p-1 border-b-2 border-white  ">
-          <Header />
-        </div>
+        <div className="p-1 border-b-2 border-white  "></div>
 
         {children}
-        <Footer />
       </body>
     </html>
   );
